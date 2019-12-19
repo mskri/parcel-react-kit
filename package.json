@@ -1,7 +1,7 @@
 {
     "name": "parcel-react-kit",
-    "version": "0.1.0",
     "description": "",
+    "version": "0.1.0",
     "main": "src/index.js",
     "scripts": {
         "start": "npm run dev",
