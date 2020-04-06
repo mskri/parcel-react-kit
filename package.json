@@ -1,40 +1,41 @@
 {
-    "name": "parcel-react-kit",
-    "description": "",
-    "version": "0.1.0",
-    "main": "src/index.js",
-    "scripts": {
-        "start": "npm run dev",
-        "dev": "parcel ./src/index.html --port 3000",
-        "build": "parcel build ./src/index.html",
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [],
-    "author": "Sakari <sakari@mursu.dev>",
-    "license": "ISC",
-    "dependencies": {
-        "react": "^16.13.0",
-        "react-dom": "^16.13.0"
-    },
-    "devDependencies": {
-        "@babel/core": "^7.8.7",
-        "@babel/preset-env": "^7.8.7",
-        "@babel/preset-react": "^7.8.3",
-        "@hot-loader/react-dom": "^16.13.0",
-        "autoprefixer": "^9.7.4",
-        "husky": "^3.1.0",
-        "parcel-bundler": "^1.12.4",
-        "postcss-preset-env": "^6.7.0",
-        "prettier": "^1.19.1",
-        "pretty-quick": "^1.11.1",
-        "react-hot-loader": "^4.12.20"
-    },
-    "alias": {
-        "react-dom": "@hot-loader/react-dom"
-    },
-    "husky": {
-        "hooks": {
-            "pre-commit": "pretty-quick --staged"
-        }
+  "name": "parcel-react-kit",
+  "description": "",
+  "version": "0.1.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "parcel ./src/index.html --port 3000",
+    "build": "parcel build ./src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pretty": "prettier --write \"./**/*.{js,ts,json}\""
+  },
+  "keywords": [],
+  "author": "Sakari <sakari@mursu.dev>",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.8.3",
+    "@hot-loader/react-dom": "^16.13.0",
+    "autoprefixer": "^9.7.4",
+    "husky": "^3.1.0",
+    "parcel-bundler": "^1.12.4",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^1.19.1",
+    "pretty-quick": "^1.11.1",
+    "react-hot-loader": "^4.12.20"
+  },
+  "alias": {
+    "react-dom": "@hot-loader/react-dom"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
     }
+  }
 }
