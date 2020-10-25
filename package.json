@@ -5,8 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "start": "npm run dev",
-    "dev": "parcel ./src/index.html --port 3000",
-    "build": "parcel build ./src/index.html",
+    "dev": "NODE_ENV=development parcel ./src/index.html --port 3000",
+    "build": "NODE_ENV=production parcel build ./src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1",
     "pretty": "prettier --write \"./**/*.{js,ts,json}\""
   },
